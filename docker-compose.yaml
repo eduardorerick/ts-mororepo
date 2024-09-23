@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  graphql_fullstack_app:
+    env_file: .env
+    container_name: graphql_monorepo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT}:${PORT}"
+    extra_hosts:
+      - "localhost:host-gateway"

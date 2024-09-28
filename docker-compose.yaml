@@ -1,9 +1,9 @@
 version: "3.3"
 
 services:
-  graphql_fullstack_app:
+  ts-monorepo-app:
     env_file: .env
-    container_name: graphql_monorepo
+    container_name: ts-monorepo
     build:
       context: .
       dockerfile: Dockerfile

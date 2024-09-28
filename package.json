@@ -1,5 +1,5 @@
 {
-  "name": "graphql-fullstack-app",
+  "name": "ts-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo build",
